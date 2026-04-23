@@ -19,7 +19,6 @@ public class PhysicalTraits
     public GeneticStat Height;
     public GeneticStat BonesBWH;
     public GeneticStat BreastVolume;
-    public GeneticStat MusclePotential;
     public GeneticStat SkinQuality;
     public GeneticStat HairGenotype;
 

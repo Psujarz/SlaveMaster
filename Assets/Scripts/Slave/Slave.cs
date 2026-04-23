@@ -4,14 +4,14 @@ using UnityEngine;
 public class Slave
 {
     public string Name;
-    public string Race;
+    public RaceType Race;
 
     // Zagnie¿d¿one kategorie
     public CoreStats Stats;
     public PhysicalTraits Genetics;
 
     // Zaktualizowany konstruktor
-    public Slave(string name, string race, CoreStats stats, PhysicalTraits genetics)
+    public Slave(string name, RaceType race, CoreStats stats, PhysicalTraits genetics)
     {
         Name = name;
         Race = race;

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public static class InheritanceSystem
 {
-    public static Slave CreateOffspring(Slave parentA, Slave parentB, string childName, string childRace)
+    public static Slave CreateOffspring(Slave parentA, Slave parentB, string childName, RaceType childRace)
     {
         // 1. Dziedziczenie statystyk g³ównych
         CoreStats childStats = new CoreStats();

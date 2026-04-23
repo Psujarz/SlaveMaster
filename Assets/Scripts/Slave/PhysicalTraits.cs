@@ -3,13 +3,23 @@ using UnityEngine;
 [System.Serializable]
 public class GeneticStat
 {
-    [Range(1, 9)]
+    [Range(1, 8)]
     public int Tier;
 
     public GeneticStat(int tier)
     {
-        Tier = Mathf.Clamp(tier, 1, 9);
+        Tier = Mathf.Clamp(tier, 1, 8);
     }
+}
+
+// Nasza nowa lista ras
+public enum RaceType
+{
+    Human,
+    Elf,
+    Demon,
+    Beastman,
+    Vampire
 }
 
 [System.Serializable]

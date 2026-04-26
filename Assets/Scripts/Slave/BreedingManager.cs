@@ -3,6 +3,9 @@ using System.Linq; // Potrzebne do ³atwego przeszukiwania listy
 
 public class BreedingManager : MonoBehaviour
 {
+    [Header("Dane Gracza")]
+    public Player mainPlayer;
+
     [Header("Ustawienia Komendy")]
     public string inputName1 = "Gideon";
     public string inputName2 = "Aeloria";
